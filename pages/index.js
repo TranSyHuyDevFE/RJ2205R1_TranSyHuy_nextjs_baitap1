@@ -25,7 +25,7 @@ export default function Home() {
               <td className={styles.td}>{student.id}</td>
               <td className={styles.td}>{student.name}</td>
               <td className={styles.td}>
-                <Link href={`/posts/${encodeURIComponent(student.id)}`}>
+                <Link href={`/students/${encodeURIComponent(student.id)}`}>
                   <a>Show</a>
                 </Link>
               </td>
